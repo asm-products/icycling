@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		582EF6361936BCEF00FA6842 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 582EF6351936BCEF00FA6842 /* Foundation.framework */; };
+		582EF6381936BCEF00FA6842 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 582EF6371936BCEF00FA6842 /* CoreGraphics.framework */; };
+		582EF63A1936BCEF00FA6842 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 582EF6391936BCEF00FA6842 /* UIKit.framework */; };
+		582EF6401936BCF000FA6842 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 582EF63E1936BCF000FA6842 /* InfoPlist.strings */; };
+		582EF6421936BCF000FA6842 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 582EF6411936BCF000FA6842 /* main.m */; };
+		582EF6461936BCF000FA6842 /* DMLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 582EF6451936BCF000FA6842 /* DMLAppDelegate.m */; };
+		582EF6491936BCF000FA6842 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 582EF6471936BCF000FA6842 /* Main.storyboard */; };
+		582EF64C1936BCF000FA6842 /* DMLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 582EF64B1936BCF000FA6842 /* DMLViewController.m */; };
+		582EF64E1936BCF000FA6842 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 582EF64D1936BCF000FA6842 /* Images.xcassets */; };
+		582EF6551936BCF000FA6842 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 582EF6541936BCF000FA6842 /* XCTest.framework */; };
+		582EF6561936BCF000FA6842 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 582EF6351936BCEF00FA6842 /* Foundation.framework */; };
+		582EF6571936BCF000FA6842 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 582EF6391936BCEF00FA6842 /* UIKit.framework */; };
+		582EF65F1936BCF000FA6842 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 582EF65D1936BCF000FA6842 /* InfoPlist.strings */; };
+		582EF6611936BCF000FA6842 /* iCyclingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 582EF6601936BCF000FA6842 /* iCyclingTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		582EF6581936BCF000FA6842 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 582EF62A1936BCEF00FA6842 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 582EF6311936BCEF00FA6842;
+			remoteInfo = iCycling;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		582EF6321936BCEF00FA6842 /* iCycling.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iCycling.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		582EF6351936BCEF00FA6842 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		582EF6371936BCEF00FA6842 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		582EF6391936BCEF00FA6842 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		582EF63D1936BCF000FA6842 /* iCycling-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iCycling-Info.plist"; sourceTree = "<group>"; };
+		582EF63F1936BCF000FA6842 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		582EF6411936BCF000FA6842 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		582EF6431936BCF000FA6842 /* iCycling-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iCycling-Prefix.pch"; sourceTree = "<group>"; };
+		582EF6441936BCF000FA6842 /* DMLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMLAppDelegate.h; sourceTree = "<group>"; };
+		582EF6451936BCF000FA6842 /* DMLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMLAppDelegate.m; sourceTree = "<group>"; };
+		582EF6481936BCF000FA6842 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		582EF64A1936BCF000FA6842 /* DMLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMLViewController.h; sourceTree = "<group>"; };
+		582EF64B1936BCF000FA6842 /* DMLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMLViewController.m; sourceTree = "<group>"; };
+		582EF64D1936BCF000FA6842 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		582EF6531936BCF000FA6842 /* iCyclingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iCyclingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		582EF6541936BCF000FA6842 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		582EF65C1936BCF000FA6842 /* iCyclingTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iCyclingTests-Info.plist"; sourceTree = "<group>"; };
+		582EF65E1936BCF000FA6842 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		582EF6601936BCF000FA6842 /* iCyclingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iCyclingTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		582EF62F1936BCEF00FA6842 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				582EF6381936BCEF00FA6842 /* CoreGraphics.framework in Frameworks */,
+				582EF63A1936BCEF00FA6842 /* UIKit.framework in Frameworks */,
+				582EF6361936BCEF00FA6842 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		582EF6501936BCF000FA6842 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				582EF6551936BCF000FA6842 /* XCTest.framework in Frameworks */,
+				582EF6571936BCF000FA6842 /* UIKit.framework in Frameworks */,
+				582EF6561936BCF000FA6842 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		582EF6291936BCEF00FA6842 = {
+			isa = PBXGroup;
+			children = (
+				582EF63B1936BCF000FA6842 /* iCycling */,
+				582EF65A1936BCF000FA6842 /* iCyclingTests */,
+				582EF6341936BCEF00FA6842 /* Frameworks */,
+				582EF6331936BCEF00FA6842 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		582EF6331936BCEF00FA6842 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				582EF6321936BCEF00FA6842 /* iCycling.app */,
+				582EF6531936BCF000FA6842 /* iCyclingTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		582EF6341936BCEF00FA6842 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				582EF6351936BCEF00FA6842 /* Foundation.framework */,
+				582EF6371936BCEF00FA6842 /* CoreGraphics.framework */,
+				582EF6391936BCEF00FA6842 /* UIKit.framework */,
+				582EF6541936BCF000FA6842 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		582EF63B1936BCF000FA6842 /* iCycling */ = {
+			isa = PBXGroup;
+			children = (
+				582EF6441936BCF000FA6842 /* DMLAppDelegate.h */,
+				582EF6451936BCF000FA6842 /* DMLAppDelegate.m */,
+				582EF6471936BCF000FA6842 /* Main.storyboard */,
+				582EF64A1936BCF000FA6842 /* DMLViewController.h */,
+				582EF64B1936BCF000FA6842 /* DMLViewController.m */,
+				582EF64D1936BCF000FA6842 /* Images.xcassets */,
+				582EF63C1936BCF000FA6842 /* Supporting Files */,
+			);
+			path = iCycling;
+			sourceTree = "<group>";
+		};
+		582EF63C1936BCF000FA6842 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				582EF63D1936BCF000FA6842 /* iCycling-Info.plist */,
+				582EF63E1936BCF000FA6842 /* InfoPlist.strings */,
+				582EF6411936BCF000FA6842 /* main.m */,
+				582EF6431936BCF000FA6842 /* iCycling-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		582EF65A1936BCF000FA6842 /* iCyclingTests */ = {
+			isa = PBXGroup;
+			children = (
+				582EF6601936BCF000FA6842 /* iCyclingTests.m */,
+				582EF65B1936BCF000FA6842 /* Supporting Files */,
+			);
+			path = iCyclingTests;
+			sourceTree = "<group>";
+		};
+		582EF65B1936BCF000FA6842 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				582EF65C1936BCF000FA6842 /* iCyclingTests-Info.plist */,
+				582EF65D1936BCF000FA6842 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		582EF6311936BCEF00FA6842 /* iCycling */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 582EF6641936BCF000FA6842 /* Build configuration list for PBXNativeTarget "iCycling" */;
+			buildPhases = (
+				582EF62E1936BCEF00FA6842 /* Sources */,
+				582EF62F1936BCEF00FA6842 /* Frameworks */,
+				582EF6301936BCEF00FA6842 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iCycling;
+			productName = iCycling;
+			productReference = 582EF6321936BCEF00FA6842 /* iCycling.app */;
+			productType = "com.apple.product-type.application";
+		};
+		582EF6521936BCF000FA6842 /* iCyclingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 582EF6671936BCF000FA6842 /* Build configuration list for PBXNativeTarget "iCyclingTests" */;
+			buildPhases = (
+				582EF64F1936BCF000FA6842 /* Sources */,
+				582EF6501936BCF000FA6842 /* Frameworks */,
+				582EF6511936BCF000FA6842 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				582EF6591936BCF000FA6842 /* PBXTargetDependency */,
+			);
+			name = iCyclingTests;
+			productName = iCyclingTests;
+			productReference = 582EF6531936BCF000FA6842 /* iCyclingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		582EF62A1936BCEF00FA6842 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DML;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "dongmeilianghy@sina.com";
+				TargetAttributes = {
+					582EF6521936BCF000FA6842 = {
+						TestTargetID = 582EF6311936BCEF00FA6842;
+					};
+				};
+			};
+			buildConfigurationList = 582EF62D1936BCEF00FA6842 /* Build configuration list for PBXProject "iCycling" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 582EF6291936BCEF00FA6842;
+			productRefGroup = 582EF6331936BCEF00FA6842 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				582EF6311936BCEF00FA6842 /* iCycling */,
+				582EF6521936BCF000FA6842 /* iCyclingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		582EF6301936BCEF00FA6842 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				582EF64E1936BCF000FA6842 /* Images.xcassets in Resources */,
+				582EF6401936BCF000FA6842 /* InfoPlist.strings in Resources */,
+				582EF6491936BCF000FA6842 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		582EF6511936BCF000FA6842 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				582EF65F1936BCF000FA6842 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		582EF62E1936BCEF00FA6842 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				582EF6461936BCF000FA6842 /* DMLAppDelegate.m in Sources */,
+				582EF6421936BCF000FA6842 /* main.m in Sources */,
+				582EF64C1936BCF000FA6842 /* DMLViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		582EF64F1936BCF000FA6842 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				582EF6611936BCF000FA6842 /* iCyclingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		582EF6591936BCF000FA6842 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 582EF6311936BCEF00FA6842 /* iCycling */;
+			targetProxy = 582EF6581936BCF000FA6842 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		582EF63E1936BCF000FA6842 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				582EF63F1936BCF000FA6842 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		582EF6471936BCF000FA6842 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				582EF6481936BCF000FA6842 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		582EF65D1936BCF000FA6842 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				582EF65E1936BCF000FA6842 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		582EF6621936BCF000FA6842 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		582EF6631936BCF000FA6842 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		582EF6651936BCF000FA6842 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iCycling/iCycling-Prefix.pch";
+				INFOPLIST_FILE = "iCycling/iCycling-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		582EF6661936BCF000FA6842 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iCycling/iCycling-Prefix.pch";
+				INFOPLIST_FILE = "iCycling/iCycling-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		582EF6681936BCF000FA6842 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iCycling.app/iCycling";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iCycling/iCycling-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "iCyclingTests/iCyclingTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		582EF6691936BCF000FA6842 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iCycling.app/iCycling";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iCycling/iCycling-Prefix.pch";
+				INFOPLIST_FILE = "iCyclingTests/iCyclingTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		582EF62D1936BCEF00FA6842 /* Build configuration list for PBXProject "iCycling" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				582EF6621936BCF000FA6842 /* Debug */,
+				582EF6631936BCF000FA6842 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		582EF6641936BCF000FA6842 /* Build configuration list for PBXNativeTarget "iCycling" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				582EF6651936BCF000FA6842 /* Debug */,
+				582EF6661936BCF000FA6842 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		582EF6671936BCF000FA6842 /* Build configuration list for PBXNativeTarget "iCyclingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				582EF6681936BCF000FA6842 /* Debug */,
+				582EF6691936BCF000FA6842 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 582EF62A1936BCEF00FA6842 /* Project object */;
+}
